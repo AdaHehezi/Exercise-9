@@ -11,42 +11,42 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-        <a class="navbar-brand float" href="#" style="margin-left:20px;"><img src="logo Small.jpeg" alt="logo" style="width: 100px; height: 60px;"></a>
+        <a class="navbar-brand float" href="index.html" style="margin-left:20px;"><img src="logo Small.jpeg" alt="logo" style="width: 100px; height: 60px;"></a>
         <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#homeimage">
+                    <a class="nav-link active" href="index.html">
                         <i class="fa fa-home"></i> Home
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Aboutus">
+                    <a class="nav-link" href="aboutus.html">
                         <i class="fa fa-bars"></i> About Us
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Products">
+                    <a class="nav-link" href="products.html">
                         <i class="fa fa-info"></i> Products
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contactus" target="_blank">
+                    <a class="nav-link" href="contactus.html" target="_blank">
                         <i class="fa fa-envelope"></i> Contact Us
                     </a>
                 </li>
             </ul>
 
             <div class="login" style="margin-right:30px;">
-                <a class="btn btn-default" href="" data-bs-toggle="modal" data-bs-target="#modalLoginForm">
+                <a class="btn btn-default" href="#modalLognForm" data-bs-toggle="modal" data-bs-target="#modalLoginForm">
                     <i class="fa fa-sign-in"></i> Login
                 </a>
             </div>
         </div>
     </nav>
-    <div id="Aboutus" class="container" style="margin-top:70px">
-        <h4>About Us</h4>
+    <div id="Aboutus" class="container" style="margin-top:90px">
+        <h2>About Us</h2>
         <p>Welcome to Wanderlust Worlds, your passport to the extraordinary. We are a passionate team of globetrotters, explorers, and adventure enthusiasts, united by our insatiable curiosity for the world and a profound love for travel.</p>
         <h5>Our Mission</h5>
         <p>At Wanderlust Worlds, our mission is simple: to inspire and empower travelers of all kinds to embark on incredible journeys, explore diverse cultures, and create lifelong memories. We believe that travel is not just about seeing new places; it's about experiencing the world with an open heart and an open mind.</p>
@@ -63,4 +63,41 @@
             <li>Sustainability: We are committed to responsible travel and minimizing our environmental impact. We promote eco-friendly practices and support initiatives that protect our planet's natural wonders.</li>
             <li>Inclusivity: Wanderlust Worlds is for everyone, regardless of age, background, or travel style. We celebrate diversity and aim to make travel accessible to all.</li>
         </ul>
+        <br><br><br>
+          <div style="text-align: center;">
+            <h6>Discover . Explore . Wander</h6>
+          </div><br>
+        
         </div>
+
+        <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-label="myModalLablel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h4 class="modal-title w-100 font-weight-bold">Login</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        </button>
+                    </div>
+                    <div class="modal-body mx-3">
+                        <div class="md-form mb-5">
+                            <i class="fa fa-envelope prefix grey-text"></i>
+                            <input type="email" id="defaultForm-email" class="form-control validate">
+                            <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+                        </div>
+      
+                        <div class="md-form mb-4">
+                            <i class="fa fa-lock prefix grey-text"></i>
+                            <input type="password" id="defaultForm-pass" class="form-control validate">
+                            <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+                        </div>
+      
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button class="btn btn-default">Login</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+</body>
+</html>
